@@ -1,0 +1,8 @@
+settings:
+  refresh-interval: 60       # seconds between leaderboard refreshes
+  top-limit: 10              # max number of players tracked
+  debug: false               # debug logging
+
+placeholders:
+  top: "<yellow><rank>. <green><player></green> - <aqua>$<balance>"
+  player: "<yellow><player></yellow> is <green>#<rank></green> with <aqua>$<balance>"

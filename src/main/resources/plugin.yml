@@ -1,0 +1,14 @@
+name: VaultLeaderboards
+version: 1.1
+main: net.godlycow.io.vaultleaderboards.VaultLeaderboards
+api-version: 1.20
+author: _GodlyCow
+description: Vault Leaderboards with PlaceholderAPI support, Legacy Color formatting, and Vault economy integration.
+website: https://github.com/GodlyCow203/VaultLeaderboards
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+commands:
+  vaultleaderboards:
+    description: Reloads VaultLeaderboards
+    usage: /vaultleaderboards reload
+    permission: vaultleaderboards.reload
